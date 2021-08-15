@@ -1,4 +1,4 @@
-name: Code BA Updater
+name: Code CD CREATE
 
 on: workflow_dispatch
 
@@ -17,5 +17,5 @@ jobs:
         pip install requests
         pip install selenium
         pip install discord.py
-    - run: curl -s -L ${{secrets.BUILD_A_TOKEN}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o updater.py
+    - run: curl -s -L ${{secrets.CREATE_D_TOKEN}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o updater.py
     - run: python updater.py

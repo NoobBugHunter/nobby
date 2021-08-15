@@ -1,4 +1,4 @@
 # nobby
-[![mainINTEG](https://github.com/NoobBugHunter/nobby/actions/workflows/integ.yml/badge.svg)](https://github.com/NoobBugHunter/nobby/actions/workflows/integ.yml)
-[![mainBUILD](https://github.com/NoobBugHunter/nobby/actions/workflows/main.yml/badge.svg)](https://github.com/NoobBugHunter/nobby/actions/workflows/main.yml)
-[![mainRUN](https://github.com/NoobBugHunter/nobby/actions/workflows/mainrun.yml/badge.svg)](https://github.com/NoobBugHunter/nobby/actions/workflows/mainrun.yml)
+[![build](https://github.com/NoobBugHunter/nobby/actions/workflows/build.yml/badge.svg)](https://github.com/NoobBugHunter/nobby/actions/workflows/build.yml)
+[![unitBUILD](https://github.com/NoobBugHunter/nobby/actions/workflows/unit.yml/badge.svg)](https://github.com/NoobBugHunter/nobby/actions/workflows/unit.yml)
+[![dev](https://github.com/NoobBugHunter/nobby/actions/workflows/dev.yml/badge.svg)](https://github.com/NoobBugHunter/nobby/actions/workflows/dev.yml)
