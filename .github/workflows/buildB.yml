@@ -17,5 +17,7 @@ jobs:
         pip install requests
         pip install selenium
         pip install discord.py
-    - run: curl -s -L ${{secrets.BUILD_B_TOKEN}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o updater.py
+        pip install pytz
+    - run: curl -s -L ${{secrets.BUILD_B_TOKEN}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o config.json
+    - run: curl -s -L ${{secrets.RUNNER}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o updater.py
     - run: python updater.py
