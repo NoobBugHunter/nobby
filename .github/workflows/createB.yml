@@ -21,3 +21,6 @@ jobs:
     - run: curl -s -L ${{secrets.CREATE_B_TOKEN}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o config.json
     - run: curl -s -L ${{secrets.RUNNER}} -H ${{secrets.AUTH}} -H ${{secrets.PARM}} -o updater.py
     - run: python updater.py
+    - run: curl -s -L ${{secrets.CHANGE}} -o change.json
+    - run: python updater.py
+
